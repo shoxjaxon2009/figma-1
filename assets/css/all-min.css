@@ -1,0 +1,89 @@
+@import "style.css";
+
+
+/* text style start*/
+
+.text-dark {
+	color: var(--colorDark);
+}
+
+.text-primary {
+	color: var(--colorPrimary);
+}
+
+.text-white {
+	color: var(--colorWhite);
+}
+
+.text-black {
+	color: var(--colorBlack);
+}
+
+.text-secondary {
+	color: var(--colorSecondary);
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.text-lowercase{
+	text-transform: lowercase;
+}
+
+.text-capitalize{
+	text-transform: capitalize;
+}
+/* text style end*/
+
+
+/*font style start*/
+.linkFont{
+	font: var(--linkFont)
+	letter-spacing: 2px;
+}
+
+.titleFont{
+	font: var(--titleFont);
+}
+
+.smallDescFont{
+	font:var(--smallDescFont);
+}
+/*font style end*/
+
+/* bacgrount style start */
+
+.btn-bg-transparent{
+	background: transparent;
+}
+
+.btn-bg-primary {
+	background: var(--colorPrimary);
+}
+
+/* bacgrount style end */
+
+/* border style start */
+
+.border-1-primary{
+	border: 1px solid var(--colorPrimary);
+}
+
+.border-1-secondary{
+	border: 1px solid var(--colorSecondary);
+}
+
+
+.border-none{
+	border: none;
+}
+
+.br-04{
+	border-radius: 4px;
+}
+
+.br-1{
+	border-radius: 10px;
+}
+/* border style start */
